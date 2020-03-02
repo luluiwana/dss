@@ -40,6 +40,7 @@
 							</div>
 							<div class="card-body">
 								<div class="col-md-12" id="">
+
 									<table class="table table-hover table-responsive-xl" >
 										<tr valign="top">
 											<th>NIM</th>
@@ -76,7 +77,7 @@
 												<?php echo $row['sikap']?>
 											</td>
 											<td>
-												<?php echo $row['sikap']?>
+												<?php echo $row['interaksi']?>
 											</td>
 										</tr>
 										<?php } ?>
@@ -127,7 +128,7 @@
 												<?php echo $row['gap_sikap']?>
 											</td>
 											<td>
-												<?php echo $row['gap_sikap']?>
+												<?php echo $row['gap_interaksi']?>
 											</td>
 											</tr>
 											<?php } ?>
@@ -179,7 +180,7 @@
 												<?php echo $row['bobot_sikap']?>
 											</td>
 											<td>
-												<?php echo $row['bobot_sikap']?>
+												<?php echo $row['bobot_interaksi']?>
 											</td>
 											</tr>
 											<?php } ?>
@@ -208,14 +209,7 @@
 										foreach ($info as $row)
 										{
 
-										?>
-											<tr  valign="top">
-												<td>
-												<?php echo $row['nim']?>
-											</td>
-											<td>
-												<?php echo $row['nama']?>
-											</td>
+										?>t					</td>
 											<td>
 												<?php echo $row['core_microteaching']?>
 											</td>

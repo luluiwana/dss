@@ -234,7 +234,7 @@ class Model_profile extends CI_Model{
 		
 		
 		$core_administrasi = ($bobot_ipk+$bobot_nilai)/2;
-		$sec_administrasi = $bobot_sertifikat;
+		$sec_administrasi = ($bobot_sertifikat+$bobot_pengalaman)/2;
 		$administrasi = 0.6*$core_administrasi + 0.4*$sec_administrasi;
 		
 		$core_tes = $bobot_tes;
