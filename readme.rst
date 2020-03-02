@@ -7,4 +7,4 @@ default password: admin
 Database 		: Import database dari folder DATABASE/dss.sql
 Nama DB			: dss (root)
 
-- Luluk Iwanatul B (170533628510)
+lulukiwanatul@gmail.com
